@@ -1,0 +1,134 @@
+
+a{
+	color:  #11A9A4;
+}
+a:hover{
+	color: rgba(85,175,172,.8)
+}
+.flex{
+	display: flex;
+}
+.jc-ce{
+	justify-content: center;
+}
+.al-ce{
+	align-items: center;
+}
+.al-st{
+	align-items: stretch;
+}
+.al-fe{
+	align-items: flex-end;
+}
+.jc-sa{
+	justify-content: space-around;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.fd-co{
+	flex-direction: column;
+}
+.fw-wrap{
+	flex-wrap: wrap;
+}
+.marginT10{
+	margin-top: 10px;
+}
+.marginB10{
+	margin-bottom: 10px;
+}
+.marginL10{
+	margin-left: 10px;
+}
+.marginT20{
+	margin-top: 20px;
+}
+.marginR20{
+	margin-right: 20px;
+}
+.marginB20{
+	margin-bottom: 20px;
+}
+.marginTB20{
+	margin:20px 0px;
+}
+.marginR40{
+	margin-right: 40px;
+}
+
+.size12{
+	font-size: 12px;
+}
+.size14{
+	font-size: 14px;
+}
+.colorF{
+	color: #fff
+}
+.color86{
+	color: #868686
+}
+
+.background{
+	background:#11A9A4;
+}
+.center{
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+}
+.cp{
+	cursor: pointer;
+}
+.pr{
+	position: relative;
+}
+
+.width100{
+	width: 100% !important
+}
+.height40{
+	height: 40px;
+}
+
+.cd{
+	cursor:default
+}
+.cp{
+	cursor: pointer;
+}
+
+.btn{
+	display: inline-block;
+	color: #11A9A4;
+    background: rgba(85,175,172,.3);
+    font-size: 12px;
+    border-radius: 3px;
+    padding:9px 15px;
+    text-align: center;
+    border:1px solid rgba(85,175,172,.6);
+}
+.btn:hover{
+	background:#11A9A4;
+	color: #fff
+}
+
+.must:before{
+	display: inline-block;
+    margin-right: 4px;
+    content: "*";
+    font-family: SimSun;
+    font-size: 12px;
+    color: #f50;
+}
+
+.hidden{
+	display: none !important
+}
+
+.editor img,.editor table{
+		width:100%!important;
+		max-width: 100%!important
+	}
